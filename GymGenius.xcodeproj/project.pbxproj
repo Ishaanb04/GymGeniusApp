@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		4C1BDDD42AD3BC29008F2EA8 /* GymGeniusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1BDDD32AD3BC29008F2EA8 /* GymGeniusApp.swift */; };
-		4C1BDDD62AD3BC29008F2EA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1BDDD52AD3BC29008F2EA8 /* ContentView.swift */; };
+		4C1BDDD62AD3BC29008F2EA8 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1BDDD52AD3BC29008F2EA8 /* MainTabView.swift */; };
 		4C1BDDD82AD3BC2A008F2EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1BDDD72AD3BC2A008F2EA8 /* Assets.xcassets */; };
 		4C1BDDDB2AD3BC2A008F2EA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1BDDDA2AD3BC2A008F2EA8 /* Preview Assets.xcassets */; };
+		4C1BDDE82AD3C267008F2EA8 /* TabBarItemViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1BDDE72AD3C267008F2EA8 /* TabBarItemViewModifier.swift */; };
+		4C1BDDEC2AD3C76F008F2EA8 /* MeasurementTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1BDDEB2AD3C76F008F2EA8 /* MeasurementTabView.swift */; };
+		4C1BDDEE2AD3D0B4008F2EA8 /* MeasurementViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1BDDED2AD3D0B4008F2EA8 /* MeasurementViewRow.swift */; };
+		4C1BDDF02AD3D29F008F2EA8 /* AddMeasurementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1BDDEF2AD3D29F008F2EA8 /* AddMeasurementView.swift */; };
+		4C1BDDF42AD3D665008F2EA8 /* MeasurementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1BDDF32AD3D665008F2EA8 /* MeasurementViewModel.swift */; };
+		4C1BDDF82AD3D6C4008F2EA8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1BDDF72AD3D6C4008F2EA8 /* User.swift */; };
+		4C1BDDFB2AD3E417008F2EA8 /* RowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1BDDFA2AD3E417008F2EA8 /* RowType.swift */; };
+		4C1BDDFF2AD3E7BE008F2EA8 /* MeasurementRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1BDDFE2AD3E7BE008F2EA8 /* MeasurementRow.swift */; };
+		4C1BDE022AD3EA51008F2EA8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1BDE012AD3EA51008F2EA8 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C1BDDD02AD3BC29008F2EA8 /* GymGenius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymGenius.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C1BDDD32AD3BC29008F2EA8 /* GymGeniusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymGeniusApp.swift; sourceTree = "<group>"; };
-		4C1BDDD52AD3BC29008F2EA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C1BDDD52AD3BC29008F2EA8 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		4C1BDDD72AD3BC2A008F2EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C1BDDDA2AD3BC2A008F2EA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C1BDDE72AD3C267008F2EA8 /* TabBarItemViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemViewModifier.swift; sourceTree = "<group>"; };
+		4C1BDDEB2AD3C76F008F2EA8 /* MeasurementTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementTabView.swift; sourceTree = "<group>"; };
+		4C1BDDED2AD3D0B4008F2EA8 /* MeasurementViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementViewRow.swift; sourceTree = "<group>"; };
+		4C1BDDEF2AD3D29F008F2EA8 /* AddMeasurementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeasurementView.swift; sourceTree = "<group>"; };
+		4C1BDDF32AD3D665008F2EA8 /* MeasurementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementViewModel.swift; sourceTree = "<group>"; };
+		4C1BDDF72AD3D6C4008F2EA8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4C1BDDFA2AD3E417008F2EA8 /* RowType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowType.swift; sourceTree = "<group>"; };
+		4C1BDDFE2AD3E7BE008F2EA8 /* MeasurementRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementRow.swift; sourceTree = "<group>"; };
+		4C1BDE012AD3EA51008F2EA8 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				4C1BDDD32AD3BC29008F2EA8 /* GymGeniusApp.swift */,
-				4C1BDDD52AD3BC29008F2EA8 /* ContentView.swift */,
+				4C1BDDE12AD3BC34008F2EA8 /* Core */,
 				4C1BDDD72AD3BC2A008F2EA8 /* Assets.xcassets */,
 				4C1BDDD92AD3BC2A008F2EA8 /* Preview Content */,
 			);
@@ -65,6 +83,111 @@
 				4C1BDDDA2AD3BC2A008F2EA8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C1BDDE12AD3BC34008F2EA8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4C1BDE002AD3EA33008F2EA8 /* Utilities */,
+				4C1BDDF92AD3E401008F2EA8 /* CommonTypes */,
+				4C1BDDE52AD3BC70008F2EA8 /* CommonComponents */,
+				4C1BDDE42AD3BC69008F2EA8 /* Models */,
+				4C1BDDE32AD3BC57008F2EA8 /* ViewModels */,
+				4C1BDDE22AD3BC4B008F2EA8 /* Views */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4C1BDDE22AD3BC4B008F2EA8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C1BDDEA2AD3C74D008F2EA8 /* Measurement */,
+				4C1BDDE92AD3C742008F2EA8 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C1BDDE32AD3BC57008F2EA8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4C1BDDF12AD3D645008F2EA8 /* Measurement */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4C1BDDE42AD3BC69008F2EA8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C1BDDF52AD3D69F008F2EA8 /* Measurement */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C1BDDE52AD3BC70008F2EA8 /* CommonComponents */ = {
+			isa = PBXGroup;
+			children = (
+				4C1BDDE62AD3C24F008F2EA8 /* ViewModifier */,
+			);
+			path = CommonComponents;
+			sourceTree = "<group>";
+		};
+		4C1BDDE62AD3C24F008F2EA8 /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				4C1BDDE72AD3C267008F2EA8 /* TabBarItemViewModifier.swift */,
+			);
+			path = ViewModifier;
+			sourceTree = "<group>";
+		};
+		4C1BDDE92AD3C742008F2EA8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4C1BDDD52AD3BC29008F2EA8 /* MainTabView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4C1BDDEA2AD3C74D008F2EA8 /* Measurement */ = {
+			isa = PBXGroup;
+			children = (
+				4C1BDDEB2AD3C76F008F2EA8 /* MeasurementTabView.swift */,
+				4C1BDDED2AD3D0B4008F2EA8 /* MeasurementViewRow.swift */,
+				4C1BDDEF2AD3D29F008F2EA8 /* AddMeasurementView.swift */,
+			);
+			path = Measurement;
+			sourceTree = "<group>";
+		};
+		4C1BDDF12AD3D645008F2EA8 /* Measurement */ = {
+			isa = PBXGroup;
+			children = (
+				4C1BDDF32AD3D665008F2EA8 /* MeasurementViewModel.swift */,
+			);
+			path = Measurement;
+			sourceTree = "<group>";
+		};
+		4C1BDDF52AD3D69F008F2EA8 /* Measurement */ = {
+			isa = PBXGroup;
+			children = (
+				4C1BDDF72AD3D6C4008F2EA8 /* User.swift */,
+				4C1BDDFE2AD3E7BE008F2EA8 /* MeasurementRow.swift */,
+			);
+			path = Measurement;
+			sourceTree = "<group>";
+		};
+		4C1BDDF92AD3E401008F2EA8 /* CommonTypes */ = {
+			isa = PBXGroup;
+			children = (
+				4C1BDDFA2AD3E417008F2EA8 /* RowType.swift */,
+			);
+			path = CommonTypes;
+			sourceTree = "<group>";
+		};
+		4C1BDE002AD3EA33008F2EA8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4C1BDE012AD3EA51008F2EA8 /* Utilities.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +260,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C1BDDD62AD3BC29008F2EA8 /* ContentView.swift in Sources */,
+				4C1BDDEE2AD3D0B4008F2EA8 /* MeasurementViewRow.swift in Sources */,
+				4C1BDDD62AD3BC29008F2EA8 /* MainTabView.swift in Sources */,
+				4C1BDE022AD3EA51008F2EA8 /* Utilities.swift in Sources */,
 				4C1BDDD42AD3BC29008F2EA8 /* GymGeniusApp.swift in Sources */,
+				4C1BDDE82AD3C267008F2EA8 /* TabBarItemViewModifier.swift in Sources */,
+				4C1BDDF82AD3D6C4008F2EA8 /* User.swift in Sources */,
+				4C1BDDFB2AD3E417008F2EA8 /* RowType.swift in Sources */,
+				4C1BDDEC2AD3C76F008F2EA8 /* MeasurementTabView.swift in Sources */,
+				4C1BDDF02AD3D29F008F2EA8 /* AddMeasurementView.swift in Sources */,
+				4C1BDDF42AD3D665008F2EA8 /* MeasurementViewModel.swift in Sources */,
+				4C1BDDFF2AD3E7BE008F2EA8 /* MeasurementRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +410,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +420,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ibhasin.GymGenius;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,8 +443,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +453,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ibhasin.GymGenius;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
